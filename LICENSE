@@ -1,0 +1,46 @@
+MIT License
+
+Copyright (c) 2024 CAD-RAG Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+This project incorporates code from:
+
+1. CSTBIR (Composite Sketch+Text Based Image Retrieval)
+   - Original paper: "Composite Sketch+Text Queries for Retrieving Objects with Elusive Names and Complex Interactions"
+   - Authors: Gatti, Prajwal and Parikh, Kshitij Gopal and Paul, Dhriti Prasanna and Gupta, Manish and Mishra, Anand
+   - Conference: AAAI 2024
+
+2. OpenECAD Bethany Project
+   - CAD conversion libraries
+   - JSON-to-Python and Python-to-JSON conversion utilities
+
+3. OpenAI CLIP
+   - Multi-modal embeddings
+   - Repository: https://github.com/openai/CLIP/
+
+This project extends the original CSTBIR implementation with:
+- Unified environment management
+- Gemini API integration for RAG-based generation
+- Integrated CAD model conversion pipeline
+- Enhanced GUI interface
+
+All original licenses and attributions are preserved.

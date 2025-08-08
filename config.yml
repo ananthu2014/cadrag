@@ -1,0 +1,24 @@
+model:
+  learning_rate: 2e-5
+  batch_size: 32
+  model_name: 'ViT-B/16'
+  optimizer: 'adamw'
+  weight_decay: 1e-5
+  scheduler: 'cosine_with_warmup'
+  warmup_steps: 1000
+  gradient_accumulation_steps: 1
+  max_grad_norm: 1.0  # Gradient clipping
+  temperature: 0.07   # Contrastive loss temperature parameter
+
+data:
+  csv_path: "data/dataset/filtered_d2_only_present.csv"
+  image_path: "data/dataset/image_cleaned_final"
+  sketch_path: "data/dataset/sketches_cleaned_final"
+  num_workers: 4
+
+training:
+  gpu: True
+  save_model_path: "/home/agcl/CSTBIR/data/trimodal"
+  epochs: 15
+
+  

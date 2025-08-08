@@ -1,0 +1,43 @@
+# CAD-RAG Framework Requirements
+
+# Core ML and Deep Learning
+torch>=1.13.1
+torchvision>=0.14.1
+torchaudio>=0.13.1
+numpy>=1.21.0,<=1.24.3
+pandas>=1.3.0
+
+# Computer Vision and Image Processing
+Pillow>=8.3.0
+opencv-python>=4.7.0
+matplotlib>=3.5.0
+
+# CLIP and Text Processing
+ftfy>=6.0.0
+regex>=2021.8.3
+tqdm>=4.62.0
+
+# Gemini API and AI
+google-generativeai>=0.8.0
+
+# CAD Processing (Bethany dependencies)
+trimesh>=3.20.0
+count-tokens>=0.7.0
+
+# Core Python Utilities
+pathlib
+typing-extensions
+requests
+pyyaml>=6.0
+
+# GUI Dependencies (usually comes with Python)
+# tkinter - typically included with Python installation
+
+# Development and Testing (optional)
+pytest>=6.0
+pytest-cov>=2.0
+black>=21.0
+flake8>=3.8
+
+# Note: CUDA dependencies are handled by conda environment
+# See environment_cad_rag.yml for complete environment specification
